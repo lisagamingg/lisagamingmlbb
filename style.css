@@ -1,0 +1,39 @@
+body {
+  background-color: #ff7c3f
+}
+
+.banner {
+  background: url("img/tampilan\ web.png") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  color: #ffff;
+}
+
+.footer {
+ background-color: #ff7c3f;
+}
+
+
+/* Media Query */
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+}
